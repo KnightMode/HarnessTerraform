@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_KnightMode_HarnessTerraform_1724591576927-push-trigger-input-set
+  identifier: Build_KnightMode_HarnessTerraform_1724591576927pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_KnightMode_HarnessTerraform_1724591576927
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
